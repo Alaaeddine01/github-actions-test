@@ -3,7 +3,7 @@ name: 🚀 Build & Push Docker image
 on:
   push:
     branches:
-      - main  # ou toutes les branches: ['*']
+      - master # ou toutes les branches: ['*']
 
 env:
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/react-vite-app
